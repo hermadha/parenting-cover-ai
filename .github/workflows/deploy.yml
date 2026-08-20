@@ -21,8 +21,8 @@ jobs:
       - name: Build with OpenNext
         run: npx opennextjs-cloudflare build
 
-      - name: Deploy to Cloudflare Pages
+      - name: Deploy to Cloudflare Workers
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          command: pages deploy .open-next/assets --project-name=parenting-cover-ai
+          command: deploy
