@@ -2,7 +2,6 @@ import { NextResponse } from "next/server";
 import { Buffer } from "node:buffer";
 
 export const runtime = "nodejs";
-export const maxDuration = 300;
 
 const MASTER_STYLE = `
 Create a premium social media cover for parenting, motherhood, babies, children and family education.

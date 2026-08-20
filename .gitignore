@@ -5,3 +5,5 @@ out
 .env.local
 .DS_Store
 npm-debug.log*
+.open-next
+.dev.vars\n.vercel
